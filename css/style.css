@@ -5,17 +5,12 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     height: 100%;
-    background:#5f2e82;
-    font-family: 'roboto', sans-serif;
+    background-image: linear-gradient(#5f2e82, #5f2e82);
+    font-family: 'Roboto', sans-serif;
 }
-main{
-    width: 100%;
-}
-
 .login{ 
-    /* lembrar de colocar max height e width */
     width: 270px;
     max-width: 70vw;
     height: 560px;
@@ -23,8 +18,10 @@ main{
     position:absolute;
     top: 50%;
     left: 50%;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.6);
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    transition: width 0.5s, height 0.3s, max-width 0.3s, margin 0.3s;
 }
 .image{
     height: 45%;
