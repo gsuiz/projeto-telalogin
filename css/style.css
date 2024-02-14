@@ -7,13 +7,13 @@
 
 html {
     height: 100%;
-    background-image: linear-gradient(#5f2e82, #5f2e82);
+    background-image: linear-gradient(#331e36, #331e36);
     font-family: 'Roboto', sans-serif;
 }
 .login{ 
     width: 270px;
     max-width: 70vw;
-    height: 560px;
+    height: 560px;  
     background-color:white;
     position:absolute;
     top: 50%;
@@ -63,18 +63,18 @@ html {
     border: solid 1px gray;
 }
 .container-3 button:hover{
-    background-color: #71dad8;
+    background-color: #a39e9e;
 }
 #enter{
     height: 40px;
-    background-color:#53aaa7;
+    background-color:#858282;
     color: white;
     text-shadow: 0;
     border: 0;
     font-weight: bold;
 }
 #enter:hover{
-    background-color:#3a7473 ;
+    background-color:#363434 ;
 }
 #letter{
     height: 35px;
@@ -90,7 +90,7 @@ html {
     font-size: 20px;
 }
 .container-1, .container-2{
-    background-color:#5f2c82;
+    background-color:#331e36;
     color:white;
 }
 .container-1 #email, .container-2 #senha{
@@ -100,7 +100,7 @@ html {
     padding-left: 1%;
     border-radius: 7px;
     color:black;
-    background-color:#94cfcd;
+    background-color:#ffffff;
     text-shadow: 0;
     border: 0;
     outline: 0;
