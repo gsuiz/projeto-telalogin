@@ -18,7 +18,7 @@ main{
     /* lembrar de colocar max height e width */
     width: 270px;
     max-width: 70vw;
-    height: 550px;
+    height: 560px;
     background-color:white;
     position:absolute;
     top: 50%;
@@ -53,17 +53,23 @@ main{
 }
 .container-1,.container-2,.container-3,button{
     width: 90%;
-    height: 10%;
+    height: 45px;
     margin:1% auto;
     border-radius: 10px;
     text-shadow: 0 0 2px rgb(0, 0, 0, 0.4);
 }
 .container-3 button{
     width: 100%;
+    height: 35px;
     color: rgb(75, 71, 71);
+    text-shadow: 0;
+    border: solid 1px gray;
+}
+.container-3 button:hover{
+    background-color: #71dad8;
 }
 #enter{
-    height: 35px;
+    height: 40px;
     background-color:#53aaa7;
     color: white;
     text-shadow: 0;
@@ -74,7 +80,7 @@ main{
     background-color:#3a7473 ;
 }
 #letter{
-    height: 31px;
+    height: 35px;
     color:black;
     text-shadow: 0;
     border: 0;
@@ -92,8 +98,8 @@ main{
 }
 .container-1 #email, .container-2 #senha{
     width: 80%;
-    height: 31px;
-    margin:0 0 1.5% 3%;
+    height: 38px;
+    margin:2% 0 1.5% 3%;
     padding-left: 1%;
     border-radius: 7px;
     color:black;
